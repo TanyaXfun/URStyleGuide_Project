@@ -1,0 +1,76 @@
+package com.ur.style.components;
+
+import java.awt.Dimension;
+import java.awt.Font;
+
+import javax.swing.BorderFactory;
+import javax.swing.JTextField;
+import javax.swing.JToggleButton;
+import javax.swing.border.Border;
+
+import com.ur.style.URBorder;
+import com.ur.style.URColorPalette;
+import com.ur.style.URLayout;
+import com.ur.style.URTypegraphy;
+
+public class URTextFields {
+	
+	private JToggleButton togglebutton = new JToggleButton();
+	private URBorder urBorder = new URBorder();
+	private URColorPalette urColorPalette = new URColorPalette();
+	private URLayout urLayout = new URLayout();
+	private URTypegraphy typegraphy = new URTypegraphy();
+	
+	public URTextFields() {
+		// TODO Auto-generated constructor stub
+	}
+	
+
+	public JTextField getTextFieldEnabled(int width) {
+		
+		JTextField textField = new JTextField();
+		
+		Border border = BorderFactory.createLineBorder(urColorPalette.BLACK, urBorder.BORDER_THIN);
+		Font font = new Font(typegraphy.FontFamilie_DejaVu, typegraphy.Plain, typegraphy.FONT_VERY_LARGE);
+		
+		textField.setBorder(border);
+		textField.setFont(font);
+		
+		if(!(width > 0)) {
+			textField.setPreferredSize(new Dimension(urLayout.installationColumWidth,urBorder.HEIGHT_SMALL));
+		}
+		
+		//TODO: textField.setFocusable(false);
+		textField.setPreferredSize(new Dimension(width,urBorder.HEIGHT_SMALL));
+		textField.setMaximumSize(textField.getPreferredSize());
+		textField.setForeground(urColorPalette.BLACK);
+		
+		
+		return textField;
+	}
+	
+	public JTextField getTextFieldDisabled(int width) {
+		
+		JTextField textField = new JTextField();
+		
+		Border border = BorderFactory.createLineBorder(urColorPalette.GRAY_5, urBorder.BORDER_THIN);
+		Font font = new Font(typegraphy.FontFamilie_DejaVu, typegraphy.Plain, typegraphy.FONT_VERY_LARGE);
+		
+		textField.setBorder(border);
+		textField.setFont(font);
+		
+		if(!(width > 0)) {
+			textField.setPreferredSize(new Dimension(urLayout.installationColumWidth,urBorder.HEIGHT_SMALL));
+		}
+		
+		textField.setFocusable(false);
+		textField.setPreferredSize(new Dimension(width,urBorder.HEIGHT_SMALL));
+		textField.setMaximumSize(textField.getPreferredSize());
+		textField.setForeground(urColorPalette.GRAY_5);
+		textField.setEnabled(false);
+		
+		
+		return textField;
+	}
+	
+}
