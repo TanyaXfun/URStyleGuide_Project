@@ -1,48 +1,44 @@
 package com.ur.style.components;
 
-import java.awt.Dimension;
-
 import javax.swing.JSeparator;
-import javax.swing.JToggleButton;
-import javax.swing.SwingConstants;
+import com.ur.director.DividerDirector;
 
-import com.ur.style.URBorder;
-import com.ur.style.URColorPalette;
-import com.ur.style.URLayout;
-
+/**
+ * This class contains the two types of divider; Horizontal and Vertical. The
+ * looks and feels of the dividers are according to the UR Style Guide.
+ * 
+ * @author Bruger
+ *
+ */
 public class URDivider {
-	private JToggleButton togglebutton = new JToggleButton();
-	private URBorder urBorder = new URBorder();
-	private URColorPalette urColorPalette = new URColorPalette();
-	private URLayout urLayout = new URLayout();
-	
+
+	private DividerDirector director = new DividerDirector();
+
 	public URDivider() {
-		// TODO Auto-generated constructor stub
 	}
-	
-	
+
 	public JSeparator getHorizontalDivider(int width) {
-		
-		JSeparator seperator = new JSeparator(SwingConstants.HORIZONTAL);
-		
-		seperator.setPreferredSize(new Dimension(width,urBorder.BORDER_NORMAL));
-		seperator.setBackground(urColorPalette.LIGHT_GRAY_2);
-		
-		return seperator;
-		
+
+		JSeparator separator = director.buildDivider(width, true);
+
+//		JSeparator separator = new JSeparator(SwingConstants.HORIZONTAL);
+//		seperator.setPreferredSize(new Dimension(width, urBorder.BORDER_NORMAL));
+//		seperator.setBackground(urColorPalette.LIGHT_GRAY_2);
+
+		return separator;
+
 	}
-	
-	
+
 	public JSeparator getVerticalDivider(int width) {
-		
-		JSeparator seperator = new JSeparator(SwingConstants.VERTICAL);
-		
-		
-		seperator.setPreferredSize(new Dimension(width,urBorder.BORDER_NORMAL));
-		seperator.setBackground(urColorPalette.LIGHT_GRAY_2);
-		
-		return seperator;
-		
+
+		JSeparator separator = director.buildDivider(width, false);
+
+//		JSeparator separator = new JSeparator(SwingConstants.VERTICAL);
+//		seperator.setPreferredSize(new Dimension(width, urBorder.BORDER_NORMAL));
+//		seperator.setBackground(urColorPalette.LIGHT_GRAY_2);
+
+		return separator;
+
 	}
-	
+
 }

@@ -5,7 +5,6 @@ import java.awt.Font;
 
 import javax.swing.BorderFactory;
 import javax.swing.JTextField;
-import javax.swing.JToggleButton;
 import javax.swing.border.Border;
 
 import com.ur.style.URBorder;
@@ -15,14 +14,12 @@ import com.ur.style.URTypegraphy;
 
 public class URTextFields {
 	
-	private JToggleButton togglebutton = new JToggleButton();
 	private URBorder urBorder = new URBorder();
 	private URColorPalette urColorPalette = new URColorPalette();
 	private URLayout urLayout = new URLayout();
 	private URTypegraphy typegraphy = new URTypegraphy();
 	
 	public URTextFields() {
-		// TODO Auto-generated constructor stub
 	}
 	
 
@@ -35,12 +32,13 @@ public class URTextFields {
 		
 		textField.setBorder(border);
 		textField.setFont(font);
+		textField.setHorizontalAlignment(JTextField.RIGHT);
 		
 		if(!(width > 0)) {
 			textField.setPreferredSize(new Dimension(urLayout.installationColumWidth,urBorder.HEIGHT_SMALL));
 		}
 		
-		//TODO: textField.setFocusable(false);
+		textField.setFocusable(false);
 		textField.setPreferredSize(new Dimension(width,urBorder.HEIGHT_SMALL));
 		textField.setMaximumSize(textField.getPreferredSize());
 		textField.setForeground(urColorPalette.BLACK);
@@ -58,6 +56,7 @@ public class URTextFields {
 		
 		textField.setBorder(border);
 		textField.setFont(font);
+		textField.setHorizontalAlignment(JTextField.RIGHT);
 		
 		if(!(width > 0)) {
 			textField.setPreferredSize(new Dimension(urLayout.installationColumWidth,urBorder.HEIGHT_SMALL));

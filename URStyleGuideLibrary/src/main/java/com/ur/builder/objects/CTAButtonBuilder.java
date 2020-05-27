@@ -2,11 +2,7 @@ package com.ur.builder.objects;
 
 import java.awt.Dimension;
 import java.awt.Font;
-
-import javax.swing.BorderFactory;
 import javax.swing.JButton;
-import javax.swing.border.Border;
-
 import com.ur.builder.IButtonBuilder;
 
 public class CTAButtonBuilder extends BuilderLibrary implements IButtonBuilder {

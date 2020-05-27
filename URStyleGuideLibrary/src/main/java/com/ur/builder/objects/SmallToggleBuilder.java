@@ -67,7 +67,6 @@ public class SmallToggleBuilder extends BuilderLibrary implements IToggleBuilder
 
 	@Override
 	public JToggleButton getComponent() {
-		// TODO Auto-generated method stub
 		return smallToggle;
 	}
 

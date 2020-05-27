@@ -7,5 +7,4 @@ public interface ILoadingBarBuilder extends IBuilder {
 	public void setWidth(int width);	
 	public void setThin(boolean thin);
 	public JProgressBar getComponent();
-	
 }
