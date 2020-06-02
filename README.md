@@ -8,7 +8,7 @@ How to use this library:
 
 2) To use the library, the project must be opened in an IDE, where it is possible to export the project as a JAR.
 
-3) For exporting the project, please choose to export the source code as well and name the jar file "URStyleGuide" without the quotation marks such that it will be called URStyleGuide.jar.
+3) For exporting the project, please choose to export the generated class files and resources and Java source files and resouces as well and name the jar file "URStyleGuide" without the quotation marks such that it will be called URStyleGuide.jar.
 
 4) Add this to the URCap project as a third-party library. Follow the bullets points below to add the library:
  
