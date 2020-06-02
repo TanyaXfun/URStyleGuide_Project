@@ -2,7 +2,7 @@ package com.ur.impl.builder;
 
 import javax.swing.JLabel;
 
-import com.ur.ekstra.MessageType;
+import com.ur.impl.ekstra.MessageType;
 
 public interface IMessageBuilder extends IBuilder{
 	public void setHeight(int height);

@@ -8,8 +8,8 @@ import javax.swing.BorderFactory;
 import javax.swing.JLabel;
 import javax.swing.border.Border;
 
-import com.ur.ekstra.MessageType;
 import com.ur.impl.builder.IMessageBuilder;
+import com.ur.impl.ekstra.MessageType;
 
 public class MessageBuilder extends BuilderLibrary implements IMessageBuilder{
 	

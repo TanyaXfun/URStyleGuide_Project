@@ -1,8 +1,6 @@
 package com.ur.style.components;
 
 public class URCards {
-	
-	public URCards() {
-	}
-	
+
+	//TODO: Not currently implemented.
 }

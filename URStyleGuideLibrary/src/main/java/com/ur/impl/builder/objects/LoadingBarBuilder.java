@@ -7,8 +7,8 @@ import javax.swing.BorderFactory;
 import javax.swing.JProgressBar;
 import javax.swing.border.Border;
 
-import com.ur.ekstra.RoundCornerBorder;
 import com.ur.impl.builder.ILoadingBarBuilder;
+import com.ur.impl.ekstra.RoundCornerBorder;
 
 public class LoadingBarBuilder extends BuilderLibrary implements ILoadingBarBuilder {
 

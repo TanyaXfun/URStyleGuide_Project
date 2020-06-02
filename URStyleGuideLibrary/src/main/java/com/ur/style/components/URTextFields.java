@@ -12,6 +12,12 @@ import com.ur.style.URColorPalette;
 import com.ur.style.URLayout;
 import com.ur.style.URTypegraphy;
 
+/**
+ * This class creates text fields.
+ * The layout is according to UR style guide for e-series.
+ * TODO: Implement builder pattern for this component.
+ */
+
 public class URTextFields {
 	
 	private URBorder urBorder = new URBorder();

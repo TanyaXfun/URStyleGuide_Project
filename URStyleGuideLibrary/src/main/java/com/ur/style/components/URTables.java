@@ -1,8 +1,13 @@
 package com.ur.style.components;
 
 import javax.swing.JTable;
-
 import com.ur.impl.director.TablesDirector;
+
+/**
+ * This class creates a table which returns an instance of JTable.
+ * The layout is according to UR style guide for e-series.
+ *
+ */
 
 public class URTables {
 
@@ -13,27 +18,6 @@ public class URTables {
 
 	public JTable getTable() {
 		JTable table = director.buildTable();
-
-//		Font font = new Font(typegraphy.FontFamilie_DejaVu, typegraphy.Plain, typegraphy.FONT_LARGE);
-
-//		table.setDefaultRenderer(Object.class, new DefaultTableCellRenderer() {
-//			@Override
-//			public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected,
-//					boolean hasFocus, int row, int column) {
-//				final Component c = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row,
-//						column);
-//				c.setBackground(row % 2 == 0 ? urColorPalette.LIGHT_GRAY_3 : urColorPalette.WHITE);
-//				return c;
-//			}
-//		});
-
-//		table.setFont(font);
-//		table.setForeground(urColorPalette.BLACK);
-//		table.setRowHeight(urBorder.HEIGHT_VERY_SMALL);
-//		table.setShowGrid(false);
-//		table.setShowHorizontalLines(false);
-//		table.setShowVerticalLines(false);
-
 		return table;
 
 	}

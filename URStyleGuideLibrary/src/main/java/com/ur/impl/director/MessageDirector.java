@@ -2,10 +2,10 @@ package com.ur.impl.director;
 
 import javax.swing.JLabel;
 
-import com.ur.ekstra.MessageType;
 import com.ur.impl.builder.IMessageBuilder;
 import com.ur.impl.builder.objects.BuilderLibrary;
 import com.ur.impl.builder.objects.MessageBuilder;
+import com.ur.impl.ekstra.MessageType;
 
 public class MessageDirector extends BuilderLibrary {
 

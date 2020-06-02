@@ -1,20 +1,17 @@
-package com.ur.ekstra;
+package com.ur.impl.ekstra;
 
-import java.awt.Color;
 import java.awt.Component;
-import java.awt.Container;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Insets;
 import java.awt.RenderingHints;
-import java.awt.geom.Area;
-import java.awt.geom.Rectangle2D;
 import java.awt.geom.RoundRectangle2D;
 
 import javax.swing.border.AbstractBorder;
 
 import com.ur.style.URColorPalette;
 
+@SuppressWarnings("serial")
 public class RoundCornerBorder extends AbstractBorder {
 	private URColorPalette urColorPalette = new URColorPalette();
 

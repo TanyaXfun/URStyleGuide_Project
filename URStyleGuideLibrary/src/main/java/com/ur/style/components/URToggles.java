@@ -4,6 +4,11 @@ import javax.swing.*;
 
 import com.ur.impl.director.ToggleDirector;
 
+/**
+ * This class creates different size toggle.
+ * The layout is according to UR Style guide for e-series.
+ */
+
 public class URToggles {
 
 	private ToggleDirector director = new ToggleDirector();

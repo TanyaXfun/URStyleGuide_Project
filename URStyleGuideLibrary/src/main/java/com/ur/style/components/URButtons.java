@@ -7,7 +7,7 @@ import com.ur.impl.director.ButtonDirector;
 
 /**
  * This class contains get methods for all of the possible UR button types. The method returns an instance of JButtons
- * where the looks and feel of the buttons are according to the UR Style Guide.
+ * where the looks and feel of the buttons are according to the UR Style Guide for e-series..
  * @author Bruger
  *
  */
