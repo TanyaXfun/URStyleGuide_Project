@@ -1,6 +1,6 @@
 The project is a UR style guide library. The purpose of this library is to make it easier for the URCap developer to implement the layout/frontend of the URCap. This library follows the style guide "STYLE GUIDE (e-Series)" found at https://plus.universal-robots.com/download-center/. Notice that the library only supports the layout for e-Series.
 
-This library has been made open-source such that developers can access the source-code, download it or event contribute. If anyone wishes to contribute, making pull requests will be available. 
+This library has been made open-source such that developers can access the source-code, download it or even contribute. If anyone wishes to contribute, pull requests will be made available. 
 
 How to use this library:
 
