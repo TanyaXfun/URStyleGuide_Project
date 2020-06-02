@@ -1,7 +1,8 @@
 package com.ur.style.components;
 
-import com.ur.director.ToggleDirector;
 import javax.swing.*;
+
+import com.ur.impl.director.ToggleDirector;
 
 public class URToggles {
 

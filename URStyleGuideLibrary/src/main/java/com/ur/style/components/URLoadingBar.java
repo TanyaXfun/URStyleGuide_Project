@@ -1,7 +1,8 @@
 package com.ur.style.components;
 
 import javax.swing.JProgressBar;
-import com.ur.director.LoadingBarDirector;
+
+import com.ur.impl.director.LoadingBarDirector;
 
 /**
  * This class creates all the types of loading bars with the looks 

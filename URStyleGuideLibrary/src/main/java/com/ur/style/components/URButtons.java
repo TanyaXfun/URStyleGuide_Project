@@ -2,7 +2,8 @@ package com.ur.style.components;
 
 import javax.swing.JButton;
 import javax.swing.SwingConstants;
-import com.ur.director.ButtonDirector;
+
+import com.ur.impl.director.ButtonDirector;
 
 /**
  * This class contains get methods for all of the possible UR button types. The method returns an instance of JButtons

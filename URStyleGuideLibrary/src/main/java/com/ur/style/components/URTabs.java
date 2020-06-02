@@ -2,7 +2,7 @@ package com.ur.style.components;
 
 import javax.swing.JTabbedPane;
 
-import com.ur.director.TabsDirector;
+import com.ur.impl.director.TabsDirector;
 
 public class URTabs {
 

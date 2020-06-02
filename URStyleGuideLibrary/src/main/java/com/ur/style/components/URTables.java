@@ -2,7 +2,7 @@ package com.ur.style.components;
 
 import javax.swing.JTable;
 
-import com.ur.director.TablesDirector;
+import com.ur.impl.director.TablesDirector;
 
 public class URTables {
 

@@ -3,8 +3,9 @@ package com.ur.style.components;
 import java.awt.Font;
 import javax.swing.JLabel;
 import javax.swing.JSlider;
-import com.ur.builder.objects.BuilderLibrary;
-import com.ur.director.SliderDirector;
+
+import com.ur.impl.builder.objects.BuilderLibrary;
+import com.ur.impl.director.SliderDirector;
 
 public class URSliders extends BuilderLibrary {
 	private SliderDirector director = new SliderDirector();

@@ -1,7 +1,8 @@
 package com.ur.style.components;
 
 import javax.swing.JSeparator;
-import com.ur.director.DividerDirector;
+
+import com.ur.impl.director.DividerDirector;
 
 /**
  * This class contains the two types of divider; Horizontal and Vertical. The

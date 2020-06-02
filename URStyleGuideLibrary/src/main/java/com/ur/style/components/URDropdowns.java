@@ -1,7 +1,8 @@
 package com.ur.style.components;
 
 import javax.swing.JComboBox;
-import com.ur.director.DropdownDirector;
+
+import com.ur.impl.director.DropdownDirector;
 
 public class URDropdowns {
 

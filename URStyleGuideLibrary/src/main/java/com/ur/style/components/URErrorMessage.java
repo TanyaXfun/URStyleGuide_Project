@@ -3,8 +3,9 @@ package com.ur.style.components;
 
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
-import com.ur.director.MessageDirector;
+
 import com.ur.ekstra.MessageType;
+import com.ur.impl.director.MessageDirector;
 
 public class URErrorMessage {
 	
