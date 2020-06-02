@@ -18,7 +18,7 @@ How to use this library:
       
 4.b) Insert the following in the pom.xml file of the URCap project as part of the <Import-Package> tag:
       
-      	com.ur.style*;version="[1.0)"
+	com.ur.style*;version="[1.0)"
   
 4.c) Insert the following in the pom.xml file below the <Import-Package> tag:
      	
