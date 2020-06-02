@@ -16,15 +16,15 @@ How to use this library:
 
 	mvn install:install-file -Dfile=URStyleGuide.jar -DgroupId=com.ur -DartifactId=StyleGuide -Dversion=1.0 -Dpackaging=jar
       
-4.b) Insert the following in the pom.xml file of the URCap project as part of the <Import-Package> tag:
+4.b) Insert the following in the pom.xml file of the URCap project as part of the \<Import-Package> tag:
       
 	com.ur.style*;version="[1.0)"
   
-4.c) Insert the following in the pom.xml file below the <Import-Package> tag:
+4.c) Insert the following in the pom.xml file below the \<Import-Package> tag:
      	
 	<Embed-Dependency>StyleGuide;scope=compile|runtime</Embed-Dependency>
   
-4.d) Insert the following as a part of the <dependencies> tag:
+4.d) Insert the following as a part of the \<dependencies> tag:
      	
 	<dependency>
         	<groupId>com.ur</groupId>
