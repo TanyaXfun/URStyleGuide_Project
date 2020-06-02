@@ -8,11 +8,11 @@ How to use this library:
 
 2) To use the library, the project must be opened in an IDE, where it is possible to export the project as a JAR.
 
-3) For exporting the project, please choose to export the source code as well. 
+3) For exporting the project, please choose to export the source code as well and name the jar file "URStyleGuide" without the quotation marks such that it will be called URStyleGuide.jar.
 
 4) Add this to the URCap project as a third-party library. 
  
-4.a) Write the following command-line in the terminal: 
+4.a) From the terminal, direct to the exported jar file  and write the following command-line in the terminal: 
 
 	mvn install:install-file -Dfile=URStyleGuide.jar -DgroupId=com.ur -DartifactId=StyleGuide -Dversion=1.0 -Dpackaging=jar
       
