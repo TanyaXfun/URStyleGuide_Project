@@ -33,3 +33,4 @@ How to use this library:
 	</dependency>
 
 For an example on how the library is implemented in a URCap, please refer to the following github link:
+https://github.com/thphr/URCaps_TPSamples/tree/master/com.ur.StyleGuideExample
