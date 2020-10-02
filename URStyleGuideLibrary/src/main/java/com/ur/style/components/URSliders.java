@@ -8,6 +8,7 @@ import com.ur.impl.director.SliderDirector;
 /**
  * This class creates a slider and returns an instance of JSlider in Swing.
  * The layout is acccording to UR Style guide for e-series.
+ * @author ur
  *
  */
 

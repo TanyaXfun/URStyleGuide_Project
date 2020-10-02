@@ -6,6 +6,7 @@ import com.ur.impl.director.TablesDirector;
 /**
  * This class creates a table which returns an instance of JTable.
  * The layout is according to UR style guide for e-series.
+ * @author thph
  *
  */
 

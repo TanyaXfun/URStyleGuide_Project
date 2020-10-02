@@ -4,9 +4,11 @@ import java.awt.Dimension;
 import java.awt.Font;
 import javax.swing.BorderFactory;
 import javax.swing.JTabbedPane;
+import javax.swing.UIManager;
 import javax.swing.border.Border;
 
 import com.ur.impl.builder.ITabsBuilder;
+import com.ur.impl.ekstra.RectangleTabbedPaneLayout;
 
 public class TabsBuilder extends BuilderLibrary implements ITabsBuilder {
 	private JTabbedPane tabbedPane;
@@ -32,14 +34,15 @@ public class TabsBuilder extends BuilderLibrary implements ITabsBuilder {
 	}
 
 	private void setBorder() {
-		Border border = BorderFactory.createMatteBorder(0, 0, urBorder.BORDER_THIN, 0, urColorPalette.BLACK);
-		tabbedPane.setBorder(border);
+//		Border border = BorderFactory.createMatteBorder(0, 0, urBorder.BORDER_THIN, 0, urColorPalette.BLACK);
+//		tabbedPane.setBorder(border);
+		tabbedPane.setUI(new RectangleTabbedPaneLayout());
 
 	}
 
 	private void setColor() {
-		tabbedPane.setBackground(urColorPalette.UR_BLUE);
-		tabbedPane.setForeground(urColorPalette.BLACK);
+//		tabbedPane.setBackground(urColorPalette.WHITE);
+//		tabbedPane.setForeground(urColorPalette.BLACK);
 	}
 
 	@Override

@@ -11,6 +11,7 @@ public class URTypegraphy {
     public String Serif = Font.SERIF;
     public String MonoSpaced = Font.MONOSPACED;
     public String FontFamilie_DejaVu = Font.SANS_SERIF;
+    
 
     //Font Styles
     public int Bold = Font.BOLD;

@@ -4,12 +4,13 @@ import javax.swing.JTabbedPane;
 
 import com.ur.impl.director.TabsDirector;
 
-
 /**
  * This class creates Tabs which returns a JTabbedPane.
  * The layout is according to UR-Style guide for e-series.
+ * @author thph
  *
  */
+
 public class URTabs {
 
 	private TabsDirector director = new TabsDirector();

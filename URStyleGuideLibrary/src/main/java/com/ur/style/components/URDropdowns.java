@@ -6,6 +6,8 @@ import com.ur.impl.director.DropdownDirector;
 /**
  * This class creates a dropdown which is a JComboBox in Swing.
  * The layout of the dropdown is according to UR style guide for e-series.
+ * @author thph
+ *
  */
 
 public class URDropdowns {

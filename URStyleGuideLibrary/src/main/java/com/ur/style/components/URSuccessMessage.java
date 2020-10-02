@@ -9,6 +9,8 @@ import com.ur.impl.ekstra.MessageType;
 /**
  * This class creates a success message which is an instance of JLabel in swing.
  * The layout is according to UR style guide for e-series.
+ * @author thph
+ *
  */
 
 public class URSuccessMessage {

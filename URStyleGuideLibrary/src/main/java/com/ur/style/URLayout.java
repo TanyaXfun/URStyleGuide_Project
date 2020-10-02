@@ -28,7 +28,7 @@ public class URLayout {
     public int programColumGutter = 10;
     public int programGridSidePadding = 17;
     //ProgramNode: the maximum width and height
-    public int programWidth = 617;
-    public int programHeight = 710;
+    public int programWidth = 710;
+    public int programHeight = 617;
 
 }

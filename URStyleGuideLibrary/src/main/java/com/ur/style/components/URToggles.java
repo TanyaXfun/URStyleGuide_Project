@@ -1,12 +1,13 @@
 package com.ur.style.components;
 
 import javax.swing.*;
-
 import com.ur.impl.director.ToggleDirector;
 
 /**
  * This class creates different size toggle.
  * The layout is according to UR Style guide for e-series.
+ * @author thph
+ *
  */
 
 public class URToggles {
